@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Projetos\\LojaLivrosASPNET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|c:\\projetos\\lojalivrosaspnet\\lojalivrosaspnet\\services\\livro\\ilivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8241C0A8-8793-4289-94F0-4802A57A3279}|LojaLivrosASPNET\\LojaLivrosASPNET.csproj|solutionrelative:lojalivrosaspnet\\services\\livro\\ilivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250204155546_adicionandoBancoDeDados.cs",
-              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs",
-              "RelativeDocumentMoniker": "LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs",
-              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs",
-              "RelativeToolTip": "LojaLivrosASPNET\\Migrations\\20250204155546_adicionandoBancoDeDados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T15:55:46.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Program.cs",
               "RelativeDocumentMoniker": "LojaLivrosASPNET\\Program.cs",
               "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Program.cs",
               "RelativeToolTip": "LojaLivrosASPNET\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T15:50:34.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\appsettings.json",
-              "RelativeDocumentMoniker": "LojaLivrosASPNET\\appsettings.json",
-              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\appsettings.json",
-              "RelativeToolTip": "LojaLivrosASPNET\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T15:47:11.197Z",
+              "WhenOpened": "2025-02-04T16:40:49.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "LojaLivrosASPNET\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Data\\DataContext.cs",
-              "RelativeToolTip": "LojaLivrosASPNET\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "ILivro.cs",
+              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Services\\Livro\\ILivro.cs",
+              "RelativeDocumentMoniker": "LojaLivrosASPNET\\Services\\Livro\\ILivro.cs",
+              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Services\\Livro\\ILivro.cs",
+              "RelativeToolTip": "LojaLivrosASPNET\\Services\\Livro\\ILivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T15:41:35.637Z",
+              "WhenOpened": "2025-02-04T16:40:16.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Services\\Livro\\LivroService.cs",
+              "RelativeDocumentMoniker": "LojaLivrosASPNET\\Services\\Livro\\LivroService.cs",
+              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Services\\Livro\\LivroService.cs",
+              "RelativeToolTip": "LojaLivrosASPNET\\Services\\Livro\\LivroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:40:01.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "LojaLivrosASPNET\\Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "LojaLivrosASPNET\\Controllers\\LivroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:37:36.342Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaLivrosASPNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b563e996f1fbd70f3be0220fcd555f47b331ec2")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaLivrosASPNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaLivrosASPNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
