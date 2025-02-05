@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LojaLivrosASPNET.pyuaiwk040.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\morph.css",
+      "PackagePath": "staticwebassets\\css\\morph.css"
+    },
+    {
       "Id": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

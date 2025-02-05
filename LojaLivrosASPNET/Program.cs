@@ -18,6 +18,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.Services.AddScoped<ILivro, LivroService>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

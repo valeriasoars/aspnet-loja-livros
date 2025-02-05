@@ -1,0 +1,73 @@
+﻿@using LojaLivrosASPNET.Models
+@model List<LivroModel>
+
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Listagem de Livros</h2>
+        <a class="btn btn-success"><i class="bi bi-plus-circle"></i>  Cadastrar novo livro</a>
+    </div>
+
+
+    <table class="table table-hover table-bordered">
+        <thead class="table table-dark">
+            <tr>
+                <th></th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Categoria</th>
+                <th>Editora</th>
+                <th>Data Publicacao</th>
+                <th>ISBN</th>
+                <th>Preco</th>
+                <th>Numero de Paginas</th>
+                <th>Descricao</th>
+                <th>Quantidade</th>
+                <th></th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            @if(Model.Count() > 0)
+            {
+                @foreach(var livro in Model)
+                {
+                    <tr>
+                        @if(livro.ImagemLivro != null)
+                        {
+                            <td><img src="...." /></td>
+                        }
+                        else
+                        {
+                            <td></td>
+                        }
+
+
+                        <td>@livro.Titulo</td>
+                        <td>@livro.Autor</td>
+                        <td>@livro.Categoria.Nome</td>
+                        <td>@livro.Editora</td>
+                        <td>@livro.DataPublicacao</td>
+                        <td>@livro.ISBN</td>
+                        <td>R$ @livro.Preco.ToString("F")</td>
+                        <td>@livro.NumeroPaginas</td>
+                        <td>@livro.Descricao</td>
+                        <td>@livro.QuantidadeEstoque</td>
+                        <td>
+                            <a class="btn btn-info">Editar</a>
+                            <a class="btn btn-danger">Remover</a>
+                        </td>
+
+
+
+                    </tr>
+                }
+         
+            }
+        </tbody>
+
+
+    </table>
+</div>
+

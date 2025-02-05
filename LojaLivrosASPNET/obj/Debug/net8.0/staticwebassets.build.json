@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9VJR0ROegRLshLD57m1EClhxaoSwW9Kd3uHy7dysmL4=",
+  "Hash": "yby22/ppOKCTEhhcdx3ydtyBgbJ5y0nilzhE16RVeYU=",
   "Source": "LojaLivrosASPNET",
   "BasePath": "_content/LojaLivrosASPNET",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LojaLivrosASPNET.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\morph.css",
+      "SourceId": "LojaLivrosASPNET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\",
+      "BasePath": "_content/LojaLivrosASPNET",
+      "RelativePath": "css/morph#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sys4kz7b7j",
+      "Integrity": "pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\morph.css"
     },
     {
       "Identity": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\site.css",
@@ -1320,6 +1341,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/morph.css",
+      "AssetFile": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\morph.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:55:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o="
+        }
+      ]
+    },
+    {
+      "Route": "css/morph.sys4kz7b7j.css",
+      "AssetFile": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\morph.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 13:55:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sys4kz7b7j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/morph.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o="
+        }
+      ]
+    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Projetos\\LojaLivrosASPNET\\LojaLivrosASPNET\\wwwroot\\css\\site.css",

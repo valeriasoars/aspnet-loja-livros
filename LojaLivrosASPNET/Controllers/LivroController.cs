@@ -1,12 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LojaLivrosASPNET.Services.Livro;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LojaLivrosASPNET.Controllers
 {
     public class LivroController : Controller
     {
-        public IActionResult Index()
+        private readonly ILivro _livroInterface;
+        public LivroController(ILivro livroInterface)
         {
-            return View();
+            _livroInterface = livroInterface;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var livros = await _livroInterface.BuscarLivros();
+            return View(livros);
         }
     }
 }

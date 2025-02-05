@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/LojaLivrosASPNET/css/morph.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\morph.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"305916"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 13:55:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/LojaLivrosASPNET/css/morph.sys4kz7b7j.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\morph.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sys4kz7b7j"},{"Name":"integrity","Value":"sha256-pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o="},{"Name":"label","Value":"_content/LojaLivrosASPNET/css/morph.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"305916"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pJsxZMSVBScgCfXv50X81WRnWY6MHmScBryv95LNm8o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 13:55:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/LojaLivrosASPNET/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
